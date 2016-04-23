@@ -72,7 +72,7 @@ class ViewController: UIViewController {
     
     private func calculate() -> Int {
         let op1Num = operand1?.intValue
-        let op2Num = operand2?.intValue
+        let op2Num = operand2 == nil ? 0 : operand2?.intValue
         var result = 0
         
         switch op! {
@@ -89,7 +89,7 @@ class ViewController: UIViewController {
         case "count":
             result = count
         case "avg":
-            result = total / count
+            result = (total + op2Num!) / count
         case "fact":
             result = 1
             for i in 1 ... op1Num! {
