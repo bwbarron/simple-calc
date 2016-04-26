@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C277475A1CCF7E9500779C2A /* HistoryContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27747591CCF7E9500779C2A /* HistoryContainer.swift */; };
+		C277475E1CCF819D00779C2A /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C277475D1CCF819D00779C2A /* HistoryViewController.swift */; };
 		C2DE63811CCB104C002A0C22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DE63801CCB104C002A0C22 /* AppDelegate.swift */; };
 		C2DE63831CCB104C002A0C22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DE63821CCB104C002A0C22 /* ViewController.swift */; };
 		C2DE63861CCB104D002A0C22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2DE63841CCB104D002A0C22 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C27747591CCF7E9500779C2A /* HistoryContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryContainer.swift; sourceTree = "<group>"; };
+		C277475D1CCF819D00779C2A /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		C2DE637D1CCB104C002A0C22 /* simple-calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simple-calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DE63801CCB104C002A0C22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2DE63821CCB104C002A0C22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				C2DE63871CCB104D002A0C22 /* Assets.xcassets */,
 				C2DE63891CCB104D002A0C22 /* LaunchScreen.storyboard */,
 				C2DE638C1CCB104D002A0C22 /* Info.plist */,
+				C27747591CCF7E9500779C2A /* HistoryContainer.swift */,
+				C277475D1CCF819D00779C2A /* HistoryViewController.swift */,
 			);
 			path = "simple-calc";
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2DE63831CCB104C002A0C22 /* ViewController.swift in Sources */,
+				C277475A1CCF7E9500779C2A /* HistoryContainer.swift in Sources */,
 				C2DE63811CCB104C002A0C22 /* AppDelegate.swift in Sources */,
+				C277475E1CCF819D00779C2A /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +413,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "simple-calc/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.498d.simple-calc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -421,7 +429,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "simple-calc/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.498d.simple-calc";
 				PRODUCT_NAME = "$(TARGET_NAME)";

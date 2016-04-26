@@ -114,6 +114,8 @@ class ViewController: UIViewController {
     @IBAction func onEqualsButtonClicked(sender: UIButton) {
         if operand1 != nil && op != nil {
             let ans = calculate()
+            //HistoryContainer.sharedContainer.history?.append(opDisplay + " = " + String(ans))
+            HistoryContainer.sharedContainer.addToHistory(opDisplay + " = " + String(ans))
             opDisplay = String(ans)
             display.text = opDisplay
             reset()
@@ -144,7 +146,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
